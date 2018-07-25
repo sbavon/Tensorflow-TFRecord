@@ -2,15 +2,15 @@
 
 In this implementation, I convert image and label to TFrecord file, and then read the file using tf.data
 
-## What is TFRecord?
+## What is TFRecord ?
 - TFRecord is a Tensorflow's standard file format, which stores data in binary format
 - It is recommended to use for machine learning projects, especially one that involves with big dataset
 
-## Why it is recommended?
+## Why it is recommended ?
 - Since data are stored in binary format, it is faster and more flexible
 - For a very large dataset whose size is too big to fit into your memory, it is easy to read partial data from the file
 
-## How to implement?
+## How to implement ?
 - There are two mainstep to implement TFRecord: convert data to TFRecord, and read TFRecord data
 
 ### Convert data to TFRecord format format
